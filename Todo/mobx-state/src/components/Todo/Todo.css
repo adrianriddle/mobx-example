@@ -1,0 +1,25 @@
+.todo {
+	background-color: white;
+	line-height: 32px;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	border: solid 1px #eeeeee;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+
+.todo-label {
+	flex-grow: 1;
+	margin: 0 10px;
+}
+
+.todo-actions {
+	flex-grow: 0;
+}
+
+.todo-done {
+	background-color: rgb(152, 187, 112);
+	text-decoration: line-through;
+}

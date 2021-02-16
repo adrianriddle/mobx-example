@@ -1,0 +1,15 @@
+.todo-input {
+	display: flex;
+	flex-direction: row;
+}
+
+.todo-input input {
+	border: solid 1px blue;
+	border-radius: 5px;
+	padding: 5px;
+	flex-grow: 1;
+}
+
+.todo-input button {
+	flex-grow: 0;
+}
