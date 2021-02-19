@@ -18,8 +18,8 @@ class App extends React.Component<IProps, {}> {
     }
     const { count, add, subtract } = counterStore;
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className="app">
+        <header className="app-header">
           Mobx State
         </header>
         <section>

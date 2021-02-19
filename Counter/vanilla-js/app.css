@@ -1,3 +1,37 @@
-.App {
+.app {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.tab {
+  border: solid 1px blue;
+  color: blue;
+  cursor: pointer;
+  padding: 4px;
+  flex-grow: 1;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab-content {
+  display: none;
+  border: solid 1px blue;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab.active {
+  color: white;
+  background-color: blue;
 }

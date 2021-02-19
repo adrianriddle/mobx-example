@@ -5,19 +5,34 @@
 </head>
 
 <body>
-	<div class="App">
-		<header class="App-header">
+	<div class="app">
+		<header class="app-header">
 			Vanilla State
 		</header>
-		<section>
-			Counter: <span id="counter">0</span>
+		<section class="tabs">
+			<div data-tab="definition" class="tab">
+				Definition
+			</div>
+			<div data-tab="example" class="tab">
+				Counter Example
+			</div>
 		</section>
-		<div class="buttons">
-			<button id="addButton">Add</button>
-			<button id="subtractButton">Subtract</button>
-		</div>
+		<section>
+			<section data-tab="definition" class="tab-content">
+				<p><b>State:</b> What or how data is shown to the user.</p>
+				<p><b>State Management:</b> well, um... managing state.</p>
+			</section>
+			<section data-tab="example" class="tab-content">
+				Counter: <span id="counter">0</span>
+				<div class="buttons">
+					<button id="addButton">Add</button>
+					<button id="subtractButton">Subtract</button>
+				</div>
+			</section>
+		</section>
 	</div>
-	<script src="main.js"></script>
+	<script src="counter.js"></script>
+	<script src="tabs.js"></script>
 </body>
 
 </html>

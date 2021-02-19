@@ -28,8 +28,8 @@ class App extends React.Component<IProps, IState> {
   render() {
     console.log("render: App", Date.now());
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className="app">
+        <header className="app-header">
           React State
       </header>
         <section>
